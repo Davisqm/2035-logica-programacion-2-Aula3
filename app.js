@@ -3,6 +3,10 @@ let intentos = 1;
 let listaNumerosSorteados = [];
 let numeroMaximo = 10;
 
+function botonNuevo() {
+    alert("Saludos y Bienvenido al juego")
+}
+
 
 function asignarTextoElemento(elemento, texto) {
     let elementoHTML = document.querySelector(elemento);
